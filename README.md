@@ -8,3 +8,8 @@ Gems + Particle Effect (Adrian) : Placed 5 gems around the playable area with a 
 Unity Asset :
 https://assetstore.unity.com/packages/3d/props/simple-gems-ultimate-animated-customizable-pack-73764
 
+Sound Effect (Isabella) : Triggered on pickup from player
+
+Linear interpolation (Alea) : Used in proximity sound effect of the gems. Calculated as :
+proximitySFX.volume = Mathf.Lerp(minVolume, maxVolume, volume);
+
